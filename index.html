@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: auto;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +7,44 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: burlywood;">
-    <header>
-        <nav style="background-color: chocolate;">
-            <a href="#">Contact us</a>
-            <a href="#">Art</a>
-            <a href="#">Home</a>
-            <a href="#">Bandai store</a>
-        </nav>
-    </header>
-    <main style="background-color: crimson;">
-        <section style="background-color: darkseagreen;">
-
+<body>
+    <main>
+        <section>
+            <header>
+                <nav>
+                    <div class="left">
+                        <a id="kekw" href="#">
+                            Home<img class="img" src="/img/home.png"></a>
+                        <a style="margin-left: 54%;" id="kekw" href="#">Give feedback</a>
+                        <a style="margin-left: 4%;" id="kekw" href="#">Contact us</a>
+                    </div>
+                    <div>
+                        <img class="logo" src="/img/logo.png">
+                    </div>
+                </nav>
+            </header>
         </section>
-        <section style="background-color: dodgerblue;">
-
-        </section>
-    </main>
-    
+        <div id="div" style="background-color: aqua;">
+            <div class="right">
+                <a id="bandai" href="#">Bandai Store</a>
+            </div>
+            <h1>Register<br>for beta</h1>
+            <div class="small">
+                <label class="label" for="uname">Username</label><br>
+                <input id="input" type="text" name="username"><br>
+                <label class="label" for="password">Password</label><br>
+                <input  id="input" type="password" name="password"><br>
+                <label class="label" for="rpassword">Repeat password</label><br>
+                <input id="input" type="password" name="password"><br>
+                <label class="label" for="email">Email</label><br>
+                <input id="input" type="text" name="mail"><br>
+                <a id="check" href="_blank">Terms of service</a><br>
+                <input id="check" type="checkbox">
+                <p id="pepe">I agree</p><br>
+                <input id="submit" type="submit" value="Apply for beta">
+                <p id="tm">&copy; Shallow Souls III&reg;</p>
+            </div>
+        </div>
+    </main>  
 </body>
 </html>
